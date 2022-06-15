@@ -7,4 +7,6 @@ The agent has four possible actions in each state (grid square): west, north, so
 You will use a reinforcement learning algorithm to compute the best policy for finding the gold with as few steps as possible while avoiding the bomb. For this, we will use the following reward function:  −1  for each navigation action, an additional  +10  for finding the gold, and an additional  −10  for hitting the bomb. For example, the immediate reward for transitioning into the square with the gold is  −1+10=+9 . Do not use discounting (that is, set  𝛾=1 ).
 
 Q Learning
+
+
 ![image](https://user-images.githubusercontent.com/94230074/173897977-5161bd3b-fa10-4ea1-8e0d-cfb177d248df.png)
